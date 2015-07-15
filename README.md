@@ -1,7 +1,13 @@
-# Naozumi HashGen
+# HashGen
 
-Language: Python 2
+Language: Python 2 and Python 3
 
-Creates a basic UI with which to gzip all the individual module files and then outputs them into a file which can be read by the updater (see https://github.com/Naozumi/updater).
+A basic command line utility which compresses each module file with gzip
+and outputs all the hashes into a file which can be read by the updater.
 
-Run it from outside the directory and set the ModuleFolder in the code.
+To use, run the script with the following arguments:
+    -i input directory
+    -o output directory
+    -v version number
+
+For the updater utility, see https://github.com/KipperK/updater
